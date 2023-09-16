@@ -1,0 +1,12 @@
+
+img{
+    max-width:100%;
+    max-height:auto;
+}
+
+body{
+ /* background-image: url("https://user-images.githubusercontent.com/71839001/96373522-daf4c780-1121-11eb-9081-b139c03b55ee.png"); */
+ background-position: center;
+ background-position: no-repeat;
+ height:auto;
+}

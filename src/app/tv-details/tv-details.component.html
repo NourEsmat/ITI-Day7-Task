@@ -1,0 +1,19 @@
+
+    <div class="card mb-3" style="max-width: 900px; margin:10% auto; background-color:#F5FFFA;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img [src]="imagePath + selectedTv.poster_path" class="card-img" alt="Guide to Web Design" style="padding:5px; border-radius:8px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title"><strong>{{selectedTv.name}}</strong></h4>
+              <button type="button" class="btn btn-outline-success" style="margin-top:15px; margin-bottom: 20px;">Watch now</button>
+            <div>
+              <p class="card-text" style="padding:5px;">{{selectedTv.overview}}</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
